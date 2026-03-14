@@ -1,0 +1,8 @@
+streamlit
+streamlit-option-menu
+hydralit-components
+pandas
+numpy
+plotly
+scikit-learn
+tensorflow
