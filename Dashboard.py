@@ -49,8 +49,8 @@ with st.sidebar:
 
 if selected == "Register":
     st.header("Register Now")
-    reg_username = st.text_input("Enter Username").strip()
-    reg_password = st.text_input("Enter Password",type="password").strip()
+    reg_username = st.text_input("Enter Username",value="User").strip()
+    reg_password = st.text_input("Enter Password",type="password",value="1234").strip()
     reg_button = st.button("Register")
 
     if reg_button:
@@ -67,8 +67,8 @@ if selected == "Register":
 
 if selected == "Login":
     st.header("Login Now")
-    username = st.text_input("Enter Username")
-    password = st.text_input("Enter Password",type="password")
+    username = st.text_input("Enter Username",value="User")
+    password = st.text_input("Enter Password",type="password",value="1234")
     login_button = st.button("Login")
 
     if login_button:
